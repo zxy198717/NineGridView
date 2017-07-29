@@ -124,4 +124,9 @@ public class ImagePreviewAdapter extends PagerAdapter implements PhotoViewAttach
     public void onPhotoTap(View view, float x, float y) {
         ((ImagePreviewActivity) context).finishActivityAnim();
     }
+
+    @Override
+    public void onOutsidePhotoTap() {
+
+    }
 }
